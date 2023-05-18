@@ -2,8 +2,9 @@
   "name": "bake-web-mobile",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "proxy": "http://localhost:3000",
   "scripts": {
-    "start": "expo start",
+    "start": "PORT=4000 expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
