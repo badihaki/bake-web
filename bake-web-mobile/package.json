@@ -4,7 +4,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "proxy": "http://localhost:3000",
   "scripts": {
-    "start": "PORT=4000 expo start",
+    "start": "PORT=4000 expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
@@ -13,7 +13,7 @@
     "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.8"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
